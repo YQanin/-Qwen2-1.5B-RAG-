@@ -15,7 +15,7 @@ Legal-AI-Project/
 ├── preprocess/       # 数据预处理脚本 (包含数据清洗、Tokenization 逻辑)
 ├── pretrain/         # 继续预训练 (CPT) 阶段代码实现
 └── rag/              # 检索增强生成系统 (包含向量检索与 RAG 对话接口)
-
+```
 ## 环境部署
 本项目依赖 `torch`, `transformers`, `peft`, `faiss-cpu`, `sentence-transformers` 等库。
 ```bash
