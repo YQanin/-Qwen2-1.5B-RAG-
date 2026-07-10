@@ -10,6 +10,7 @@ Legal-AI-Project/
 ├── data/             # 数据集存储目录 (包含 instruction/ 指令集与 knowledge/ 法律知识库)
 ├── finetune/         # 指令微调 (SFT) 核心代码实现
 ├── models/           # 基座大模型存储目录 (存放 Qwen2.5-1.5B-Instruct 等模型文件)！未上传
+                      # output实在太大了，zip压缩包也有550M，因此没上传
 ├── output/           # 训练产出目录 (存放预训练与 SFT 阶段的 LoRA 权重)
 ├── preprocess/       # 数据预处理脚本 (包含数据清洗、Tokenization 逻辑)
 ├── pretrain/         # 继续预训练 (CPT) 阶段代码实现
