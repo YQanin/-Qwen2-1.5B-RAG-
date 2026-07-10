@@ -1,0 +1,11 @@
+torch
+transformers
+peft
+datasets
+accelerate
+bitsandbytes
+sentence-transformers
+faiss-cpu
+matplotlib
+numpy
+pandas
